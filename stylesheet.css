@@ -1,0 +1,29 @@
+ /*
+ color palette:
+ 131515 2b2c28 339989 7de2d1 fffafb
+ */
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.topBar {
+    background-color: #131515;
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.topNav {
+    background-color: #2b2c28;
+    overflow: hidden;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+home {
+    
+}
