@@ -6,6 +6,7 @@
 body{
   margin: 0;
   padding: 0;
+  font-family: ui-monospace;
 }
 
 .topBar {
@@ -20,10 +21,25 @@ body{
     background-color: #2b2c28;
     overflow: hidden;
     height: 50px;
+    justify-content: center;
     display: flex;
     align-items: center;
+    gap: 10px;
 }
 
-home {
-    
+#home {
+    width: 35px;
 }
+
+#home:hover {
+    cursor: pointer;
+}
+
+.topNav a {
+    justify-content: center;
+    color: #fffafb;
+    text-decoration: none;
+    background-color: #2b2c28;
+    padding: 12px 16px;
+}
+
