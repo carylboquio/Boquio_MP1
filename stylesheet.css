@@ -286,7 +286,8 @@ nav a:hover {
 }
 
 .about-class {
-    height: 406px;
+    height: auto;
+    width: 100%;
     display: block;
 }
 
