@@ -63,12 +63,7 @@ nav a:hover {
 }
 
 /*https://www.w3schools.com/howto/howto_css_searchbar.asp*/
-#products-top {
-    background-color: #7de2d1;
-    color: #2b2c28;
-    text-align: center;
-    padding: 5px;
-}
+
 
 .search {
     position: absolute;
@@ -97,7 +92,7 @@ nav a:hover {
     justify-content: center;
     box-sizing: border-box;
     background-color: #fffafb;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 #products-header {
@@ -126,7 +121,7 @@ nav a:hover {
 .products-class button {
     font-family: monospace;
     position: absolute;
-    top: 46.1%;
+    top: 45.3%;
     left: 50%;
     transform: translate(-50%, -50%);
 
@@ -186,6 +181,7 @@ nav a:hover {
     padding: 30px 20px;
     box-sizing: border-box;
     font-family: monospace;
+    background-color: #eee;
 }
 
 #reviews-header {
@@ -199,7 +195,7 @@ nav a:hover {
 .reviews-class .reviews {
     max-width: 1200px;
     width: 100%;
-    padding: 0;
+    padding: 20px;
     overflow: hidden;
 }
 
@@ -216,7 +212,7 @@ nav a:hover {
     padding: 15px;
     background-color: #fffafb;
     border-radius: 5px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
     flex: 1 1 0;
     user-select: none;
 }
@@ -318,6 +314,21 @@ footer {
 }
 
 /* https://codepen.io/b-alerta/pen/XZymLB */
+.products-top {
+    text-align: center;
+    color: #131515;
+    background-color: #eee;
+    padding: 5px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 450px;
+    border-radius: 20px;
+    border-color: #2b2c28;
+    border-width: 2px;
+    border-style: solid;
+}
+
 .products-page {
     background-color: #eee;
     margin: 0;
@@ -483,8 +494,5 @@ footer {
     padding-left: 558px;
     padding-right: 561.5px;
     margin: 0;
-}
-
-.contact-coco-class {
 }
 
