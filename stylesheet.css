@@ -446,6 +446,62 @@ footer {
     to {translate: -100%}
 }
 
+.about {
+    margin-top: 20px;
+    padding: 150px;
+    background-color: #eee;
+}
+
+.about-founders {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    position: relative;
+}
+
+.about-founders img{
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+}
+
+.about-text {
+    margin-top: 120px;
+    max-width: 450px;
+}
+
+.about-text h3 {
+    color: #339989;
+    margin-bottom: 10px;
+    background-color: #fffafb;
+    padding: 5px 10px;
+    width: 70px;
+    border-radius: 5px;
+}
+
+.about-text p {
+    color: #131515;
+    width: 300px;
+}
+
+.founders-message {
+    position: absolute;
+    top: 30px;
+    right: 300px;
+    width: 220px;
+    padding: 10px;
+    background-color: #339989;
+    color: #fffafb;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.founders-message p {
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
 .contact-class a {
     color: #0000EE;
 }
