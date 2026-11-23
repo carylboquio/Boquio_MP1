@@ -3,11 +3,11 @@ document.addEventListener("DOMContentLoaded", () => {
     var productSearch = document.getElementById("search-bar");
 
     logo.addEventListener("mouseover", () => {  
-    logo.src = "logo-hover.png";
+    logo.src = "assets/logo-hover.png";
     });
 
     logo.addEventListener("mouseout", () => {
-        logo.src = "logo.png";
+        logo.src = "assets/logo.png";
     });
 
     /*https://www.youtube.com/watch?v=ifi6dXOl3g4*/
