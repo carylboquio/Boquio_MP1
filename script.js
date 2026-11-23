@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     var logo = document.getElementById("home")
-    
+
     logo.addEventListener("mouseover", () => {  
     logo.src = "logo-hover.png";
     });
