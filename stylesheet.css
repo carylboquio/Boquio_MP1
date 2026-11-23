@@ -59,10 +59,9 @@ nav a:hover {
 /*https://www.w3schools.com/howto/howto_css_searchbar.asp*/
 .search {
     position: absolute;
-    left: 90%;
+    right: 20px;
     top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
+    transform: translateY(-50%);
 }
 
 .search input[type=text] {
@@ -576,6 +575,6 @@ footer {
     display: block;
     margin: auto;
     padding-left: 558px;
-    padding-right: 561.5px;
+    padding-right: 701px;
     margin: 0;
 }
