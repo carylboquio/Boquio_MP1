@@ -65,7 +65,19 @@ nav a:hover {
     justify-content: center;
     box-sizing: border-box;
     background-color: #fffafb;
-    padding-top: 70px;
+    padding-top: 20px;
+}
+
+#products-header {
+    text-align: center;
+    margin: 30px 0;
+}
+
+#cocobox-dark {
+    height: 25px;
+    width: auto;
+    position: relative;
+    top: 3px;
 }
 
 .products-class img {
@@ -82,7 +94,7 @@ nav a:hover {
 .products-class button {
     font-family: monospace;
     position: absolute;
-    top: 50%;
+    top: 46.1%;
     left: 50%;
     transform: translate(-50%, -50%);
 
