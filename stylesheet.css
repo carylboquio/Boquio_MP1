@@ -431,10 +431,52 @@ footer {
     color: #0000EE;
 }
 
-.contact-1 {
-    text-align: center;
+.cocobox-contact {
+    height: 35px;
+    width: auto;
+    position: relative;
+    top: 2px;
+}
+
+.contact {
     padding: 100px;
     background-color: #339989;
     color: #fffafb;
     font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
 }
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.social-item a {
+    color: #fffafb;
+    text-decoration: none;
+}
+
+#contact-coco {
+    background-color: #7de2d1;
+    height: 375px;
+    display: block;
+    margin: auto;
+    padding-left: 558px;
+    padding-right: 561.5px;
+    margin: 0;
+}
+
+.contact-coco-class {
+}
+
