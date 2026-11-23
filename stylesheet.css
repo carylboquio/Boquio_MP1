@@ -562,6 +562,14 @@ footer {
     text-decoration: none;
 }
 
+#contact-location {
+    background-color: #fffafb;
+    color: #339989;
+    padding: 5px;
+    border-radius: 10px;
+    width: 400;
+}
+
 #contact-coco {
     background-color: #7de2d1;
     height: 375px;
