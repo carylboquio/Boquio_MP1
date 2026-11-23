@@ -9,15 +9,16 @@ body{
   font-family: monospace;
 }
 
-.topBar {
+header {
     background-color: #131515;
     width: 100%;
     height: 30px;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.topNav {
+nav {
     background-color: #2b2c28;
     overflow: hidden;
     height: 50px;
@@ -31,15 +32,50 @@ body{
     width: 35px;
 }
 
-#home:hover {
-    
-}
-
-.topNav a {
+nav a {
     justify-content: center;
     color: #fffafb;
     text-decoration: none;
     background-color: #2b2c28;
     padding: 10px 15px;
+}
+
+nav a:hover {
+    color: #7de2d1;
+}
+
+.about-class {
+    position: relative;
+    display: inline-block;
+}
+
+.about-class img {
+    height: 777.2px;
+    display: block;
+}
+
+.about-class button {
+    font-family: monospace;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    padding: 7px 40px;
+    background-color: #339989;
+    color: #fffafb;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.about-class p {
+    font-family: monospace;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fffafb;
+    font-size: xx-large;
 }
 
