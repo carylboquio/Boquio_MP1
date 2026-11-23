@@ -576,6 +576,5 @@ footer {
 #contact-coco {
     background-color: #7de2d1;
     height: 400px;
-    display: block;
-    margin: 0;
+    margin-left: 40%;
 }
