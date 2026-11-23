@@ -3,14 +3,13 @@
  131515 2b2c28 339989 7de2d1 fffafb
  */
 
- @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css');
 
 html, body{
     margin: 0;
     padding: 0;
     font-family: monospace;
     transition: all .2s linear;
-    /* box shadow: 0 5px 10px rgba(0,0,0,.1)*/
 }
 
 header {
@@ -343,6 +342,8 @@ footer {
     border-radius: 4px;
     cursor: pointer;
     transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-card:hover {
@@ -355,6 +356,13 @@ footer {
     height: 150px;
     object-fit: contain;
     display: block;
+}
+
+.product-card p {
+    background-color: #2b2c28;
+    color: #fffafb;
+    padding: 5px;
+    margin-top: auto;
 }
 
 .media-page {
