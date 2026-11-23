@@ -80,6 +80,10 @@ nav a:hover {
     top: 2px;
 }
 
+.products-page {
+    background-color: #eee;
+}
+
 .products-class img {
     width: 100%;
     aspect-ratio: 1/1;
