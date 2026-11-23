@@ -14,7 +14,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-
     position: fixed;
     top: 0;
     left: 0;
@@ -80,6 +79,7 @@ nav a:hover {
 /*https://www.youtube.com/watch?v=n77yqF5fdBE*/
 .introduction-text {
     font-family: monospace;
+    font-weight: bold;
     position: absolute;
     top: 20%;
     left: 50%;
@@ -88,9 +88,10 @@ nav a:hover {
     letter-spacing: 3px;
     color: #fffafb;
     border: solid;
+    border-color: #fffafb ;
     border-width: 1px;
     border-radius: 40px;
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255,255,255,0.1);
     backdrop-filter: blur(5px);
 }
 
@@ -145,7 +146,6 @@ nav a:hover {
     top: 45.3%;
     left: 50%;
     transform: translate(-50%, -50%);
-
     padding: 10px 30px;
     background-color: #2b2c28;
     color: #fffafb;
@@ -176,7 +176,6 @@ nav a:hover {
     top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
     padding: 15px 40px;
     background-color: #7de2d1;
     color: #131515;
