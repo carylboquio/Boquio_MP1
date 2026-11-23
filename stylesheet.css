@@ -35,6 +35,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 10px;
+    position: relative;
 }
 
 #home {
@@ -51,6 +52,43 @@ nav a {
 
 nav a:hover {
     color: #7de2d1;
+}
+
+/*https://www.w3schools.com/howto/howto_css_searchbar.asp*/
+#products-top {
+    background-color: #7de2d1;
+    color: #2b2c28;
+    text-align: center;
+    padding: 5px;
+}
+
+.search {
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.search input[type=text] {
+    padding: 5px 10px;
+    border: solid;
+    border-radius: 40px;
+    font-family: monospace;
+}
+
+.search button {
+    padding: 5px 5px;
+    background-color: #7f7f7f;
+    margin-left: 5px;
+    color: #fffafb;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #7de2d1;
+    color: #131515;
 }
 
 .products-class {
@@ -78,10 +116,6 @@ nav a:hover {
     width: auto;
     position: relative;
     top: 2px;
-}
-
-.products-page {
-    background-color: #eee;
 }
 
 .products-class img {
@@ -290,11 +324,17 @@ footer {
 }
 
 /* https://codepen.io/b-alerta/pen/XZymLB */
+.products-page {
+    background-color: #eee;
+    margin: 0;
+    padding: 10px;
+}
+
 .product-grid {
     display: grid;
-    grid-template-columns: repeat(4, 350px);
+    grid-template-columns: repeat(3, 350px);
     gap: 20px;
-    width: 60em;
+    width: 80em;
     margin: 2rem auto;
     display: flex;
     flex-wrap: wrap;

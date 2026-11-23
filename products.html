@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="stylesheet.css"> 
     </head>
     <body>
-        <header></header>
+        <header><img id="header-cocobox" src="CoCoBox.png" alt="CoCoBox"></header>
         <nav>
             <a href="index.html"><img id="home" src="logo.png" alt="logo"></a>
             <a id="products" href="products.html">Products</a>
@@ -19,11 +19,19 @@
             <a id="reviews" href="reviews.html">Reviews</a>
             <a id="about" href="about.html">About</a>
             <a id="contact" href="contact.html">Contact us</a>
+
+            <div class="search">
+                <input class="search-input" type="text" placeholder="Search product">
+                <button class="search-input" type="submit">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
         </nav>
         <main class="products-page">
             <!--most of the product pictures and pricing were taken from the datablitz website, hehe
                 https://codepen.io/b-alerta/pen/XZymLB
             -->
+            <h2 id="products-top">Visit in-store to purchase your gear!</h1>
             <div class="product-grid">
                 <div class="product-card">
                     <img src="ps5-console-disc.webp" alt="PS5 Console Disc Edition">
@@ -44,6 +52,21 @@
                     <img src="ps5-console-pro.webp" alt="PS5 Console Pro Edition">
                     <h3>PS5 Console - Pro Digital Edition</h3>
                     <p>₱89,990.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="xbox-console-seriesx.webp" alt="Xbox Series X 1TB">
+                    <h3>Xbox Series X 1TB</h3>
+                    <p>₱54,995.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="xbox-console-seriess.webp" alt="Xbox Series S 1TB">
+                    <h3>Xbox Series S 1TB</h3>
+                    <p>₱34,995.00</p>
+                </div>
+                <div class="product-card">
+                    <img src="xbox-console-one.webp" alt="Xbox One 500GB">
+                    <h3>Xbox One 500GB</h3>
+                    <p>₱34,995.00</p>
                 </div>
             </div>
         </main>
