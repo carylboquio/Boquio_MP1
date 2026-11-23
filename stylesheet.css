@@ -3,7 +3,7 @@
  131515 2b2c28 339989 7de2d1 fffafb
  */
 
-body{
+html, body{
   margin: 0;
   padding: 0;
   font-family: monospace;
@@ -45,20 +45,21 @@ nav a:hover {
 }
 
 .about-class {
+    background-color: #2b2c28;
     position: relative;
     display: inline-block;
 }
 
 .about-class img {
-    height: 777.2px;
+    height: 410px;
     display: block;
 }
 
 .about-class button {
     font-family: monospace;
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
   
     padding: 7px 40px;
@@ -80,10 +81,18 @@ nav a:hover {
 .about-class p {
     font-family: monospace;
     position: absolute;
-    top: 10%;
-    left: 50%;
+    top: 30%;
+    left: 70%;
     transform: translate(-50%, -50%);
     color: #fffafb;
     font-size: xx-large;
+}
+
+footer {
+    font-size: 10px;
+}
+
+.contact-class a {
+    color: #0000EE;
 }
 
