@@ -11,14 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     /*https://www.youtube.com/watch?v=ifi6dXOl3g4*/
-
     productSearch.addEventListener("keyup", e => {
         var current = e.target.value.toLowerCase();
         var products = document.querySelectorAll(".product-card")
 
         products.forEach(product => {
             var name = product.querySelector(".product-name").textContent.toLowerCase();
-
             if (name.includes(current)) { product.style.display = ""; } 
             else { product.style.display = "none"; }
         });
@@ -28,7 +26,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     productCards.forEach(card => {
         var randomAniDelay = Math.floor(Math.random()*500);
-
         card.style.animation = 'fadeIn 1s ${randomAniDelay}ms ease forwards';
     });
 });
