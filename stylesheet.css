@@ -77,20 +77,6 @@ nav a:hover {
     font-family: monospace;
 }
 
-.search button {
-    padding: 5px 5px;
-    background-color: #7f7f7f;
-    margin-left: 5px;
-    color: #fffafb;
-    border-radius: 50%;
-    cursor: pointer;
-}
-
-.search button:hover {
-    background-color: #7de2d1;
-    color: #131515;
-}
-
 .products-class {
     position: relative;
     display: grid;
@@ -320,7 +306,7 @@ nav a:hover {
 }
 
 footer {
-    font-size: 15px;
+    line-height: 0.2;
 }
 
 /* https://codepen.io/b-alerta/pen/XZymLB */
