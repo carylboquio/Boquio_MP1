@@ -10,8 +10,6 @@ Products:
  - consoles (switch 2, xbox series X|S, ps5 slim|pro, )
  - console gift cards
  - game disks
- - *collectibles (special game-related physical collectibles)
- - console accessories
 Services: 
  - repair 
  - cleaning
@@ -24,7 +22,7 @@ Services:
         <link rel="stylesheet" href="stylesheet.css"> 
     </head>
     <body>
-        <header></header>
+        <header><img id="header-cocobox" src="CoCoBox.png" alt="CoCoBox"></header>
         <nav>
             <a href="index.html"><img id="home" src="logo.png" alt="logo"></a>
             <a id="products" href="products.html">Products</a>
@@ -35,10 +33,14 @@ Services:
         </nav>
         <main>
             <div class="products-class">
-
+                <img src="products-ps5.webp" alt="PlayStation 5">
+                <img src="products-switch.webp" alt="Nintendo Switch 2">
+                <img src="products-game.webp" alt="GTA VI Standard Edition CD">
+                <img src="products-xboxx.jpg" alt="Xbox Series X">
             </div>
             <div class="showcase-class">
-
+                <video autoplay muted loop><source src="showcase-background.mp4"></video>
+                <a href="media.html"><button>View showcase</button></a>
             </div> 
             <h1 id="reviews-header">Customer Reviews</h1>
             <div class="reviews-class"> <!--note this section is a modified version of https://www.youtube.com/watch?v=fxJQOrwtaVQ-->
@@ -121,9 +123,9 @@ Services:
                 </section>
             </div>
             <div class="about-class">
-                <p>Meet the Founders.</p>
+                <p>Meet the founders of <img id="cocobox" src="CoCoBox.png" alt="CoCoBox"></p>
                 <a href="about.html"><button>About</button></a>
-                <img src="about.png" alt="Founders of CleoStation">
+                <img id="founders" src="about.png" alt="Founders of CoCoBox">
             </div>
         </main>
         <footer>

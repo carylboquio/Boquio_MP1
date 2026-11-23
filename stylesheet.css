@@ -22,6 +22,11 @@ header {
     justify-content: center;
 }
 
+header img {
+    height: 20px;
+    padding-bottom: 5px;
+}
+
 nav {
     background-color: #2b2c28;
     overflow: hidden;
@@ -46,6 +51,56 @@ nav a {
 
 nav a:hover {
     color: #7de2d1;
+}
+
+.products-class {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    max-width: 600px;
+    padding: 10px;
+}
+
+.products-class img {
+    width: 100%;
+    aspect-ratio: 1/1;
+    display: block;
+    border-style: solid;
+    border-color: #7f7f7f;
+    border-width: 2px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.showcase-class {
+    position: relative;
+}
+
+.showcase-class video {
+    width: 100%;
+}
+
+.showcase-class button {
+    font-family: monospace;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  
+    padding: 15px 40px;
+    background-color: #7de2d1;
+    color: #131515;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.showcase-class button:hover {
+    background-color: transparent;
+    color: #fffafb;
+    border: solid;
+    border-width: 2px;
+    border-color: #7de2d1;
 }
 
 /*note this section is a modified version of https://www.youtube.com/watch?v=fxJQOrwtaVQ*/
@@ -141,9 +196,14 @@ nav a:hover {
     display: inline-block;
 }
 
-.about-class img {
-    height: 410px;
+.about-class {
+    height: 406px;
     display: block;
+}
+
+.about-class #cocobox {
+    height: 25px;
+    width: auto;
 }
 
 .about-class button {
