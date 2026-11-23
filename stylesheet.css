@@ -69,6 +69,14 @@ nav a:hover {
     cursor: pointer;
 }
 
+.about-class button:hover {
+    background-color: #fffafb;
+    color: #339989;
+    border: solid;
+    border-width: 2px;
+    border-color: #339989;
+}
+
 .about-class p {
     font-family: monospace;
     position: absolute;
